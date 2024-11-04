@@ -29,6 +29,21 @@ public class User {
 	@Column(name = "admin")
 	// Boolean -> bit
 	Boolean admin = false;
+	
+	public User() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public User(String id, String password, String fullname, String email, Boolean admin) {
+		super();
+		this.id = id;
+		this.password = password;
+		this.fullname = fullname;
+		this.email = email;
+		this.admin = admin;
+	}
+
+
 
 	public String getId() {
 		return id;

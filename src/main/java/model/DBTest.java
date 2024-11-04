@@ -15,7 +15,7 @@ public class DBTest {
 //		System.out.println("kết nối thành công");
 		
 		UserManager um = new UserManager();
-		um.findAll();
+		um.findById();
 	}
 
 }
